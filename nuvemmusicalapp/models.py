@@ -5,6 +5,7 @@ import datetime
 # Create your models here.
 class Artist(models.Model):
     name = models.CharField(max_length=500)
+    genre = models.CharField(max_length=150)
 
 
 class Album(models.Model):
@@ -31,7 +32,7 @@ class Song(models.Model):
         except ValueError:
             print("The duration of the song can\'t be negative.")
 
-
-    def floatfield_to_float(self, a_floatfield_var):
+    @staticmethod
+    def floatfield_to_float(a_floatfield_var):
         var_as_string = str(a_floatfield_var)
         return float(var_as_string)
