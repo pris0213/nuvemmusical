@@ -1,10 +1,19 @@
-<!DOCTYPE html>
+{% load static %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Songs | Nuvem Musical</title>
+    <link rel="stylesheet" type="text/css" href="{%static 'nuvemmusicalapp/style.css' %}">
 </head>
 <body>
-
+    <h1>Songs</h1>
+    <ul>
+        {% for song in songs.all %}
+        <li>
+            {{ song.name }}
+        </li>
+        {% endfor %}
+    </ul>
 </body>
 </html>

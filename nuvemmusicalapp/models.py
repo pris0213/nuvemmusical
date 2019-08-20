@@ -5,7 +5,7 @@ import datetime
 # Create your models here.
 class Artist(models.Model):
     name = models.CharField(max_length=500)
-    genre = models.CharField(max_length=150)
+    genre = models.CharField(max_length=150, default='Alternative Rock')
 
 
 class Album(models.Model):

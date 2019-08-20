@@ -4,6 +4,14 @@ from django.views import generic
 from nuvemmusicalapp.models import Song, Artist, Album
 
 
+class IndexView(generic.ListView):
+    template_name = 'nuvemmusicalapp/index.html'
+    model = Song
+
+    def get_queryset(self):
+        return Song.objects
+
+
 class SongView(generic.ListView):
     template_name = 'nuvemmusicalapp/songs.html'
     model = Song
