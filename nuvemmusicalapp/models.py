@@ -31,6 +31,7 @@ class Song(models.Model):
                 return str(datetime.timedelta(seconds=duration))
         except ValueError:
             print("The duration of the song can\'t be negative.")
+    duration_to_string.short_description = 'Duration'
 
     @staticmethod
     def floatfield_to_float(a_floatfield_var):

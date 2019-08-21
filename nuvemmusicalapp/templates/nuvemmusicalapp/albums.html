@@ -8,12 +8,16 @@
 </head>
 <body>
     <h1>Albums</h1>
+    {% if album_list %}
     <ul>
-        {% for album in albums.all %}
+        {% for album in album_list %}
         <li>
             {{ album.name }}
         </li>
         {% endfor %}
     </ul>
+    {% else %}
+        <p>There are no albums to display.</p>
+    {% endif %}
 </body>
 </html>

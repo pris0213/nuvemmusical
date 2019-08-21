@@ -8,12 +8,17 @@
 </head>
 <body>
     <h1>Artists</h1>
+    {% if artist_list %}
     <ul>
-        {% for artist in artists.all %}
+        {% for artist in artist_list %}
         <li>
             {{ artist.name }}
+            
         </li>
         {% endfor %}
     </ul>
+    {% else %}
+        <p>There are no artists to display.</p>
+    {% endif %}
 </body>
 </html>

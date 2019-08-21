@@ -8,12 +8,16 @@
 </head>
 <body>
     <h1>Songs</h1>
+    {% if song_list %}
     <ul>
-        {% for song in songs.all %}
+        {% for song in song_list %}
         <li>
-            {{ song.name }}
+            {{ song.title }}
         </li>
         {% endfor %}
     </ul>
+    {% else %}
+        <p>There are no songs to display.</p>
+    {% endif %}
 </body>
 </html>

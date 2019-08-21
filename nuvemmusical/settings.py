@@ -29,7 +29,6 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'nuvemmusicalapp.apps.NuvemmusicalappConfig',
     'django.contrib.admin',
