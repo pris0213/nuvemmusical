@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8c6df37-53bc-4680-9eec-f0b037d40d5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/nuvemmusical/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/nuvemmusical/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuvemmusicalapp/templates/static_pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nuvemmusicalapp/templates/static_pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nuvemmusical.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuvemmusical/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nuvemmusical/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/artists.html" beforeDir="false" afterPath="$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/artists.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,27 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/artists.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -52,6 +44,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/tests/test_models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,14 +60,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+
+        <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="1" />
+
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+
         <entry file="file://$PROJECT_DIR$/nuvemmusical/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
@@ -76,11 +82,18 @@
               <folding>
                 <element signature="e#313#322#0" expanded="true" />
               </folding>
+
+        <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/artists.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+
         <entry file="file://$PROJECT_DIR$/nuvemmusical/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -88,15 +101,72 @@
               <folding>
                 <element signature="e#636#668#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/templates/static_pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+=======
+        <entry file="file://$PROJECT_DIR$/runtime.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/songs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+=======
+        <entry file="file://$PROJECT_DIR$/nuvemmusical/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
+              <folding>
+                <element signature="e#313#322#0" expanded="true" />
+              </folding>
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
             </state>
           </provider>
         </entry>
@@ -105,7 +175,23 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+<<<<<<< HEAD
               <caret column="53" selection-start-column="53" selection-end-column="53" />
+=======
+              <caret column="44" selection-start-column="44" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
             </state>
           </provider>
         </entry>
@@ -118,6 +204,7 @@
         <option value="Python Script" />
         <option value="Setup Script" />
         <option value="HTML File" />
+        <option value="Setup Script" />
       </list>
     </option>
   </component>
@@ -125,9 +212,12 @@
     <findStrings>
       <find>list</find>
       <find>database</find>
+<<<<<<< HEAD
       <find>3.5</find>
       <find>stat</find>
       <find>django.con</find>
+=======
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,7 +228,6 @@
       <list>
         <option value="$PROJECT_DIR$/nuvemmusicalapp/tests/test_models.py" />
         <option value="$PROJECT_DIR$/nuvemmusicalapp/tests/test_views.py" />
-        <option value="$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/index.html" />
         <option value="$PROJECT_DIR$/nuvemmusicalapp/urls.py" />
         <option value="$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/albums.html" />
         <option value="$PROJECT_DIR$/nuvemmusicalapp/views.py" />
@@ -147,12 +236,20 @@
         <option value="$PROJECT_DIR$/nuvemmusicalapp/admin.py" />
         <option value="$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/artists.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/wsgi.py" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/nuvemmusical/settings.py" />
-        <option value="$PROJECT_DIR$/nuvemmusicalapp/templates/static_pages/index.html" />
         <option value="$PROJECT_DIR$/nuvemmusical/urls.py" />
+        <option value="$PROJECT_DIR$/nuvemmusicalapp/templates/static_pages/index.html" />
+        <option value="$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/index.html" />
+=======
+        <option value="$PROJECT_DIR$/nuvemmusical/settings.py" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/wsgi.py" />
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
       </list>
     </option>
   </component>
@@ -180,6 +277,7 @@
               <item name="nuvemmusical" type="462c0819:PsiDirectoryNode" />
               <item name="nuvemmusical" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="nuvemmusical" type="b2602c69:ProjectViewProjectNode" />
               <item name="nuvemmusical" type="462c0819:PsiDirectoryNode" />
@@ -198,6 +296,15 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="nuvemmusicalapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nuvemmusical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuvemmusical" type="462c0819:PsiDirectoryNode" />
+              <item name="nuvemmusicalapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static_pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+=======
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
           </expand>
           <select />
         </subPane>
@@ -303,13 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
@@ -320,6 +420,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/songs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -327,6 +429,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
     <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -397,8 +500,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/admin.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="300">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+=======
+        <state relative-caret-position="347">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -407,6 +515,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
@@ -433,16 +542,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+=======
+        <state relative-caret-position="360">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
           <folding>
             <element signature="e#313#322#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/templates/static_pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -453,6 +559,74 @@
           <folding>
             <element signature="e#636#668#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/songs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/templates/static_pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuvemmusicalapp/templates/nuvemmusicalapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+=======
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pipfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuvemmusical/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#313#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+>>>>>>> 056a9f9... Subindo o projeto pro Heroku -- em andamento
         </state>
       </provider>
     </entry>
