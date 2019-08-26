@@ -16,10 +16,9 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from django.urls import include, path
-from django.views.generic import TemplateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('nuvemmusical/', include('nuvemmusicalapp.urls')),
-    url(r'^$', TemplateView.as_view(template_name='static_pages/index.html'), name='home')
+    #path('nuvemmusical/', include('nuvemmusicalapp.urls')),
+    url(r'^', include('nuvemmusicalapp.urls', namespace='index'))
 ]
