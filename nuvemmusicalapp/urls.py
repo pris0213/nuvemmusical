@@ -1,7 +1,7 @@
 from django.urls import path
 from nuvemmusicalapp import views
 
-app_name = 'nuvemmusical'
+app_name = 'nuvemmusicalapp'
 
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),

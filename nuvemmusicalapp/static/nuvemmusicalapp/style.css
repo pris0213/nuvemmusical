@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+
+body {
+    font-family: 'Livvic', sans-serif;
+    background: #000;
+}
+
+#index-title {
+    color: rgb(153, 204, 0);
+}
