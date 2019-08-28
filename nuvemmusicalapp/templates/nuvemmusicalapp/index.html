@@ -19,12 +19,20 @@
     <!-- Bootstrap Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- Main CSS -->
-    <link rel="stylesheet" type="text/css" href="{% static 'nuvemmusical/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'nuvemmusicalapp/style.css' %}">
 </head>
 
 <body>
     <div class="container-fluid">
-        <h1 class="display-1" id="index-title">Nuvem Musical</h1>
+<!--        <span class="dot"></span>-->
+        <div class="row">
+			<div class="col-md-12">
+                <h1 class="d-flex justify-content-center" id="index-title">Nuvem Musical</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-4"><a href="{% url 'nuvemmusicalapp:albums' %}">Albums</a></div>
             <div class="col-md-4"><a href="{% url 'nuvemmusicalapp:artists' %}">Artists</a></div>

@@ -127,7 +127,8 @@ STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "nuvemmusicalapp/static")
 # HEROKU
 # Extra lookup directories for collectstatic to find static files
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'nuvemmusicalapp/static')
+    os.path.join(BASE_DIR, 'static'),
+    '/nuvemmusicalapp/static'
 )
 #  Add configuration for static files storage using whitenoise
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
