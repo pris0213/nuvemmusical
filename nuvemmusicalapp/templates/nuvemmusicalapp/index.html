@@ -1,43 +1,65 @@
 {% load static %}
 
 <html lang="pt-br">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="music, streaming, cloud, collaborative">
-    <meta name="author" content="pris0213">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="music, streaming, cloud, collaborative">
+        <meta name="author" content="pris0213">
 
-    <title>Nuvem Musical</title>
+        <title>Nuvem Musical</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- Bootstrap jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Bootstrap Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <!-- Bootstrap Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- Main CSS -->
-    <link rel="stylesheet" type="text/css" href="{% static 'nuvemmusicalapp/style.css' %}">
-</head>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- Bootstrap jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Bootstrap Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <!-- Bootstrap Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- Main CSS -->
+        <link rel="stylesheet" type="text/css" href="{% static 'nuvemmusicalapp/main.css' %}">
+    </head>
 
-<body>
-    <div class="container-fluid">
-<!--        <span class="dot"></span>-->
-        <div class="row">
-			<div class="col-md-12">
-                <h1 class="d-flex justify-content-center" id="index-title">Nuvem Musical</h1>
+    <body>
+        <div class="landing-page">
+            <div class="container-fluid wrapper">
+                <div class="huge-circle rounded-circle"></div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="d-flex justify-content-center" id="index-title">nuvem musical</h1>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4"><a href="{% url 'nuvemmusicalapp:albums' %}">Albums</a></div>
-            <div class="col-md-4"><a href="{% url 'nuvemmusicalapp:artists' %}">Artists</a></div>
-            <div class="col-md-4"><a href="{% url 'nuvemmusicalapp:songs' %}">Songs</a></div>
-        </div>
-    </div>
-</body>
+        <section class="card-overlap">
+            <div class="container-fluid wrapper">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card hover-style-1">
+                            <h3 class="section-title">Álbuns</h3>
+                            <p class="section-content">Pet Sounds, Warner 25 Anos, Malhação Internacional 2004 e mais. Os melhores álbuns em um só lugar.</p>
+                            <a class="section-more" href="{% url 'nuvemmusicalapp:albums' %}">+ detalhes</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card hover-style-1">
+                            <h3 class="section-title">Álbuns</h3>
+                            <p class="section-content">Pet Sounds, Warner 25 Anos, Malhação Internacional 2004 e mais. Os melhores álbuns em um só lugar.</p>
+                            <a class="section-more" href="{% url 'nuvemmusicalapp:albums' %}">+ detalhes</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card hover-style-1">
+                            <h3 class="section-title">Álbuns</h3>
+                            <p class="section-content">Pet Sounds, Warner 25 Anos, Malhação Internacional 2004 e mais. Os melhores álbuns em um só lugar.</p>
+                            <a class="section-more" href="{% url 'nuvemmusicalapp:albums' %}">+ detalhes</>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>

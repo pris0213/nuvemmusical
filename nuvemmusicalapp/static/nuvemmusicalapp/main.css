@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+
+body {
+    font-size: 14px;
+    font-family: 'Livvic', sans-serif;
+    /*background: rgba(99, 99, 99, 1);*/
+    background: #fff;
+
+}
+
+h1 {
+    font-family: 'Chilanka', sans-serif;
+    font-size: 5rem;
+    color: #fff;
+    margin: 50 0;
+}
+
+.huge-circle {
+    height: 13rem;
+    width: 13rem;
+    background: #fff;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-transform: uppercase;
+    color: #444;
+    padding: 15px;
+}
+
+.section-content {
+    padding: 0 15px;
+}
+
+.section-more {
+    padding: 15px;
+}
+
+.card {
+    border-radius: 0 !important;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.card-overlap {
+    margin-top: -60px;
+}
+
+.landing-page {
+    /*background: #b0d0d3;*/
+    background: linear-gradient(
+        to top,
+        #59c9a5,
+        #0b4f6c);
+    padding: 100 0;
+}
+
+.wrapper {
+    max-width: 1080px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    color: #59c9a5;
+    font-weight: bold;
+}

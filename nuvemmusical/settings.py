@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 INSTALLED_APPS = [
+    'behave_django',
     'nuvemmusicalapp.apps.NuvemmusicalappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
