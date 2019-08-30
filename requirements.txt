@@ -1,3 +1,4 @@
+behave-django
 behave
 invoke
 blessings==1.7
